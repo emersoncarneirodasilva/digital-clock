@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "digital";
+    src: url("../assets/DS-DIGIB.TTF") format("truetype");
+}
+
+body {
+    background: #222;
+}
+
+section {
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+h1 {
+    color: goldenrod;
+    font-family: "digital", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6.2em;
+    text-align: center;
+    margin-top: 13%;
+}
+
+#date {
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: -80px;
+}
